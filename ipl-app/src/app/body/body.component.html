@@ -1,0 +1,15 @@
+<ul class="teams">
+  <li *ngFor="let team of team">
+    <div class="template">
+      <h3>{{team.name}}</h3>
+      <h5>
+        {{team.website}}
+      </h5>
+      <h5>{{team.bestplayer}}</h5>
+      <h5>{{team.number}}</h5>
+      <div class="img">
+        <img src="{{team.image}}" alt="">
+      </div>
+    </div>
+  </li>
+</ul>
